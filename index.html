@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      if (history.scrollRestoration) {
+  history.scrollRestoration = 'manual';
+  } else {
+  window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+  }
+  }
+    </script>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- =============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/faviconv3.svg"
+      type="image/x-icon"
+    />
+
+    <!--=============== Google Fonts ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles v3 - Copy.css" />
+
+    <title>Quick-Binary</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          
+            <img src="assets/img/logo/QB_logo_Main.png" id="nav__logo_price" alt="logo image">
+         
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#feature" class="nav__link">Feature</a>
+            </li>
+            <li class="nav__item">
+              <a href="#client" class="nav__link">Clients</a>
+            </li>
+            <li class="nav__item">
+              <a href="pricing.html" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact us</a>
+            </li>
+          </ul>
+
+          <!--                    Close button-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!--                    Theme change button-->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!--            Toggle button-->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__data">
+          <div class="home__reveal">
+            <h1 class="home__title">
+              Get unique Website in just 48 hours, <br />
+              at 999Rs Only!
+            </h1>
+            <p class="home__description">
+              1ST TIME IN THE WORLD : <br />
+              Quick, Affordable and Quality - all in one place.
+            </p>
+
+            <a href="#contact" class="button">
+              Contact Now <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home-img-container">
+          <img
+            id="home_img"
+            src="assets/img/home-img-reverse.png"
+            alt="home image"
+            class="home__img"
+          />
+        </div>
+      </section>
+
+      <!--============  Overview Section  =============-->
+
+      <section>
+        <div class="overview-page">
+          <h1 class="overview-title">Welcome to Quick-Binary!</h1>
+          <p>
+            We specialize in crafting awesome mobile and desktop websites for
+            businesses of all sizes. The best part?
+            <span class="text-highlight"
+              >We never use generic templates! Enjoy affordable prices, complete
+              customization, and quick delivery in just 48 hours.</span
+            >
+            Stand out from the competition.
+          </p>
+          <a href="#contact" class="over-button">Contact Now!</a>
+        </div>
+      </section>
+
+      <!--==================== how it Works ====================-->
+      <section class="newsletter section">
+        <div class="how_it_works__container container">
+          <h2 class="section__title">3 Steps to Get Your Website!</h2>
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="single_timeline1">
+                <div class="circle red">
+                  <span>1</span>
+                </div>
+                <h3 class="how-text mb-6">Sign up:</h3>
+                <p class="how_p">
+                  Our dedicated executive will reach out to you and gather all
+                  the necessary information about the type of website you
+                  desire.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="single_timeline2">
+                <div class="circle green">
+                  <span>2</span>
+                </div>
+                <h3 class="how-text">Payment:</h3>
+                <p class="how_p">
+                  Once the payment is processed, sit back and relax while we
+                  diligently create your website.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="circle blue">
+                <span>3</span>
+              </div>
+              <h3 class="how-text">Quick Check:</h3>
+              <p class="how_p">
+                You can quickly review and request changes to customize it as
+                you prefer. We ensure your satisfaction with the final product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Feature Section ==================-->
+
+      <section class="about section" id="feature">
+        <div class="feature-heading">
+          <h1
+            class="section__title feature-main-title"
+            style="text-align: center"
+          >
+            Why Choose Us?
+          </h1>
+
+          <p class="feature-subtitle">
+            Quick-Binary for a unique website and stand out from the competition
+            today!
+          </p>
+
+          <hr class="feature-hr" />
+        </div>
+        <!-- feature 1 -->
+
+        <div class="about__container feature1 container">
+          <div class="about__data">
+            <h2 class="feature-titles about__title">
+              Website in just 48 hours
+            </h2>
+            <p class="about__description">
+              No need to wait for weeks or months! It's like having a team of
+              digital superheroes working at lightning speed to bring your ideas
+              to life online. Get ready to make an impact and show the world
+              what you've got!
+            </p>
+          </div>
+
+          <img
+            id="feature_img_1"
+            src="assets/img/blue-time.png"
+            alt="about image"
+            class="about__img"
+          />
+        </div>
+        <!-- feature 2 -->
+        <div class="about__container feature2">
+          <div class="about__data">
+            <h2 class="feature-titles about__title about__title__rtl">
+              Full Customization
+            </h2>
+            <p class="about__description about__description__rtl">
+              Say goodbye to generic templates and hello to a website that truly
+              represents you. Your business is unique, and we'll make sure your
+              website reflects that perfectly. We'll create designs that
+              showcase your brand, style, and ideas.
+            </p>
+          </div>
+          <img
+            id="feature_img_2"
+            src="assets/img/blue-customization.png"
+            alt="about image"
+            class="about__img"
+          />
+        </div>
+        <!-- feature 3 -->
+        <div class="about__container feature3 container">
+          <div class="about__data">
+            <h2 class="feature-titles about__title">Affordable Pricing</h2>
+            <p class="about__description">
+              At our company, we believe in providing exceptional value for
+              money. Our prices are significantly lower compared to others in
+              the industry, ensuring that businesses of all sizes can afford an
+              Impressive online presence.
+            </p>
+          </div>
+          <img
+            id="feature_img_3"
+            src="assets/img/blue-wallet.png"
+            alt="about image"
+            class="about__img"
+          />
+        </div>
+      </section>
+
+      <!--==================== RECENTLY ====================-->
+      <section class="recently section" id="client">
+        <h2 class="section__title">Our Global Clients</h2>
+        <p class="recently-subtitle">
+          Crafting unique websites for diverse businesses: Corporate,
+          E-commerce, Education, Health, and more.
+        </p>
+        <hr class="feature-hr product-hr" />
+
+        <div class="recently__container container">
+          <a
+            href="https://maheshwaricommodities.com/drive/index.html"
+            target="_blank"
+          >
+            <div class="template">
+              <img
+                src="assets/img/product/Maheshwari-Commodities-teblate.png"
+                alt="recently image"
+              />
+              <div class="project_discription">
+                <span class="projects__subtitle">Commodity Brokers</span>
+                <h1 class="projects__title">Maheshwari Commoddites</h1>
+                <a
+                  href="https://maheshwaricommodities.com/drive/index.html"
+                  target="_blank"
+                  class="projects__button"
+                >
+                  Live Preview
+                  <i
+                    style="display: inline-block"
+                    class="ri-arrow-right-line project_arrow"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://marketwize.netlify.app/" target="_blank">
+            <div class="template">
+              <img
+                src="assets/img/product/marketwize-demoV1.jpg"
+                alt="recently image"
+              />
+              <div class="project_discription">
+                <span class="projects__subtitle">Marketing Agency</span>
+                <h1 class="projects__title">MarketWize <br />Digital Agency</h1>
+                <a
+                  href="https://marketwize.netlify.app/"
+                  target="_blank"
+                  class="projects__button"
+                >
+                  Live Preview
+                  <i
+                    style="display: inline-block"
+                    class="ri-arrow-right-line project_arrow"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://coruscating-paletas-eb0f54.netlify.app/"
+            target="_blank"
+          >
+            <div class="template">
+              <img
+                src="assets/img/product/my-photov1.jpg"
+                alt="recently image"
+              />
+              <div class="project_discription">
+                <span class="projects__subtitle">Photo Studio</span>
+                <h1 class="projects__title">Elegant <br />Studio</h1>
+                <a
+                  href="https://coruscating-paletas-eb0f54.netlify.app/"
+                  target="_blank"
+                  class="projects__button"
+                >
+                  Live Preview
+                  <i
+                    style="display: inline-block"
+                    class="ri-arrow-right-line project_arrow"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials section">
+        <div class="testimonials__center">
+          <div class="testimonials__text__data">
+            <h1 class="testimonials_title section__title">
+              What people say about us!
+            </h1>
+          </div>
+        </div>
+
+        <div class="container testimonials__container">
+          <div class="innerdiv">
+            <!-- div1 -->
+            <div class="div1 testimonial_1 eachdiv">
+              <div class="userdetails">
+                <div class="imgbox">
+                  <img src="assets/img/testimonial-profile1.jpeg" alt="" />
+                </div>
+                <div class="detbox">
+                  <p class="name dark">Haresh Agarwal</p>
+                  <p class="designation dark">Corporate Executive</p>
+                </div>
+                <!--
+          <div class="detbox">
+            <p class="name dark">Jeanette Harmon</p>
+            <p class="designation dark">Verified Graduate</p>
+          </div>
+          -->
+              </div>
+              <div class="review dark">
+                <h4>
+                  “Thanks to the Team, our website was up and operating in just
+                  48 hours, Very strongly advised!”
+                </h4>
+              </div>
+            </div>
+
+            <!-- div2 -->
+            <div class="div1 testimonial_2 eachdiv">
+              <div class="userdetails">
+                <div class="imgbox">
+                  <img src="assets/img/testimonial-profile2.jpeg" alt="" />
+                </div>
+                <div class="detbox">
+                  <p class="name dark">Sarah Jones</p>
+                  <p class="designation dark">Digital Marketer</p>
+                </div>
+              </div>
+              <div class="review dark">
+                <h4>
+                  “Quick-Binary improved our web visibility, Thanks to their
+                  quick turnaround time and reasonable pricing.”
+                </h4>
+              </div>
+            </div>
+
+            <!-- div3 -->
+            <div class="div1 testimonial_3 eachdiv">
+              <div class="userdetails">
+                <div class="imgbox">
+                  <img src="assets/img/testimonial-profile3.jpeg" alt="" />
+                </div>
+                <div class="detbox">
+                  <p class="name dark">Rajesh Bhul</p>
+                  <p class="designation dark">CEO at MarketWize</p>
+                </div>
+              </div>
+              <div class="review dark">
+                <h4>
+                  “They outperformed our expectations! Their efficiency and
+                  cost-effectiveness surprised me”
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACTS ====================
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Us</h2>
+        <!- -
+            <span class="section__subtitle">Get in touch</span>
+- ->
+        <div class="contact__container container grid">
+          <div class="contact__info">
+            <a href="tel:+91 97734 51967">
+              <div class="contact__information">
+                <i class="uil uil-phone-alt contact__icon"></i>
+
+                <div>
+                  <h3 class="contact__title">Call Us</h3>
+                  <span class="contact__subtitle">(+91)97734 51967</span>
+                </div>
+              </div>
+            </a>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">E-mail</h3>
+                <span class="contact__subtitle">info@quick-binary.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Rajkot-Gujarat INDIA <br />
+                  Pincode - 360001</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form
+            action=""
+            class="contact__form grid"
+            id="contact-form"
+            onsubmit="validateForm(event)"
+          >
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label class="contact__label">Name</label>
+                <input
+                  name="user__name"
+                  type="text"
+                  id="name"
+                  class="contact__input"
+                />
+              </div>
+
+              <div class="contact__content">
+                <label class="contact__label">E-mail</label>
+                <input
+                  name="user__email"
+                  type="email"
+                  id="email"
+                  class="contact__input"
+                />
+              </div>
+              <div class="contact__content">
+                <label class="contact__label">Phone Number</label>
+                <input
+                  name="user__phone"
+                  type="tel"
+                  id="phone"
+                  class="contact__input"
+                  minlength="10"
+                />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea
+                name="user__message"
+                id="message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <p class="contact__message" id="contact-message"></p>
+            <div>
+              <button type="submit" class="button button--flex">
+                Send message
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    -->
+
+      <!--==================== CONTACTS ==================== -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Us</h2>
+        <!--
+            <span class="section__subtitle">Get in touch</span>
+-->
+        <div class="contact__container container grid">
+          <div class="contact__info">
+            <a href="tel:+91 97734 51967">
+              <div class="contact__information">
+                <i class="uil uil-phone-alt contact__icon"></i>
+
+                <div>
+                  <h3 class="contact__title">Call Us</h3>
+                  <span class="contact__subtitle">(+91)97734 51967</span>
+                </div>
+              </div>
+            </a>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">E-mail</h3>
+                <span class="contact__subtitle">info@quick-binary.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Rajkot-Gujarat INDIA <br />
+                  Pincode - 360001</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form
+            action=""
+            class="contact__form grid"
+            id="contact-form"
+            onsubmit="sendMessage(event)"
+          >
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label class="contact__label">Name</label>
+                <input
+                  name="user__name"
+                  form="name"
+                  type="text"
+                  id="name"
+                  class="contact__input"
+                />
+              </div>
+
+              <div class="contact__content">
+                <label class="contact__label">E-mail</label>
+                <input
+                  name="user__email"
+                  type="email"
+                  for="email"
+                  id="email"
+                  class="contact__input"
+                />
+              </div>
+              <div class="contact__content">
+                <label class="contact__label">Phone Number</label>
+                <input
+                  name="user__phone"
+                  type="tel"
+                  for="phone"
+                  id="phone"
+                  class="contact__input"
+                  minlength="10"
+                />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea
+                name="user__message"
+                id="message"
+                form="message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <p class="contact__message" id="contact-message"></p>
+            <div>
+              <button type="submit" class="button button--flex">
+                Send message
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer-data">
+          <a href="#" class="footer__logo" >
+            
+                <img src="assets/img/logo/QB_logo_Main.png"  id="nav__logo" alt="logo image">
+                
+           
+          </a>
+
+          <p class="footer__description">
+            We help entrepreneurs from all over the world to quickly and
+            effortlessly bring their businesses online in most affordable price
+            within 2-3 days!
+          </p>
+        </div>
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Address</h3>
+            <ul class="footer__links">
+              <li class="footer__information">
+                Rajkot-Gujarat INDIA<br />
+                Pincode - 360001
+              </li>
+              <li class="footer__information">9AM - 11PM India</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Main Menu</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#home" class="footer__link"> Home </a>
+              </li>
+              <li>
+                <a href="#feature" class="footer__link"> Features </a>
+              </li>
+              <li>
+                <a href="#recently" class="footer__link"> Clients </a>
+              </li>
+              <li>
+                <a href="pricing.html" class="footer__link"> Pricing </a>
+              </li>
+              <li>
+                <a href="#contact" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <div class="footer__card">
+          <img src="assets/img/footer-card-1.png" alt="footer card image" />
+          <img src="assets/img/footer-card-2.png" alt="footer card image" />
+          <img src="assets/img/footer-card-3.png" alt="footer card image" />
+          <img src="assets/img/footer-card-4.png" alt="footer card image" />
+        </div>
+
+        <span class="footer__copy"> &#169; Binary. All rights reserved. </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+  </body>
+
+  <script src="assets/js/index_v5.js"></script>
+</html>
+
+
+<script>
+var slideUp = {
+    distance: '60px',
+    origin: 'bottom',
+    duration:1000,
+    delay:1000,
+   
+};
+var slideDown = {
+    distance: '60px',
+    origin: 'top',
+    duration:1000,
+    delay:1000
+};
+var slideLeft = {
+    distance: '150%',
+    origin: 'left',
+    opacity: null,
+    delay:'600'
+};
+var slideLeftSlow = {
+    distance: '150%',
+    origin: 'left',
+    opacity: null,
+    delay:'500'
+};
+var slideRight = {
+    distance: '150%',
+    origin: 'right',
+    opacity: null,
+    delay:'500'
+};
+  ScrollReveal().reveal('.home__reveal', slideUp)
+  ScrollReveal().reveal('.home__img', slideDown)
+  ScrollReveal().reveal('.feature1', slideLeft)
+  ScrollReveal().reveal('.feature2', slideRight)
+  ScrollReveal().reveal('.feature3', slideLeftSlow)
+  ScrollReveal().reveal('.contact__info', slideLeftSlow)
+  ScrollReveal().reveal('.contact__form', slideRight)
+
+  ScrollReveal().reveal('.testimonial_2', {distance: '150%',
+    origin: 'top',
+    opacity: '0.0',
+    delay:'500'})
+
+    ScrollReveal().reveal('.testimonial_1', {distance: '200%',
+    origin: 'left',
+    opacity: null,
+    delay:'500'})
+
+    ScrollReveal().reveal('.testimonial_3', {distance: '200%',
+    origin: 'right',
+    opacity: null,
+    delay:'500'})
+
+</script>
