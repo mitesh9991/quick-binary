@@ -96,79 +96,60 @@ async function myAsyncFunction() {
   await fetchData(); // Wait for the fetch operation to complete
 
   if (myVariable.country == "IN") {
-    const button_basic = document.getElementById("btn-show");
+    // payment for basic
+    const button_basic = document.getElementsByClassName("card__btn__basic");
 
-    button_basic.addEventListener("click", payBasic);
+    button_basic[0].addEventListener("click", payBasic);
 
     function payBasic() {
       if (activeRadioButtonId == "Monthly") {
-        console.log("month basic");
-        Instamojo.open("https://quickbinary.mojo.page/quick-binary");
+        Instamojo.open("https://quickbinary.mojo.page/basic-package");
       } else if (activeRadioButtonId == "Annually") {
-        console.log("annual basic");
+        Instamojo.open("https://quickbinary.mojo.page/basic-package-yearly");
       } else if (activeRadioButtonId == "One Time") {
-        console.log("one time basic");
+        Instamojo.open("https://quickbinary.mojo.page/basic-package-onetime");
       }
     }
 
-    // if(activeRadioButtonId == 'Monthly'){
-    //   const button_basic = document.getElementById("btn-show");
-    //   console.log("month")
-    //   button_basic.addEventListener('click',month)
+    // payment for standard
+    const button_standard = document.getElementsByClassName(
+      "card__btn__standard"
+    );
 
-    // }else if(activeRadioButtonId == 'Annually'){
-    //   console.log("true")
-    //   const button_basic1 = document.getElementById("btn-show");
-    //   button_basic1.addEventListener('click',anually)
+    button_standard[0].addEventListener("click", payStandard);
 
-    // }
+    function payStandard() {
+      if (activeRadioButtonId == "Monthly") {
+        Instamojo.open("https://quickbinary.mojo.page/standard-package-basic");
+        
+      } else if (activeRadioButtonId == "Annually") {
+        Instamojo.open("https://quickbinary.mojo.page/standard-package-yearly");
+      } else if (activeRadioButtonId == "One Time") {
+        Instamojo.open("https://quickbinary.mojo.page/standard-package-onetime");
 
-    // const radioButtons2 = document.querySelectorAll(".toggle__checkbox");
+      }
+    }
 
-    // const button_basic = document.getElementById("btn-show");
+    // payment for ecommerece
+    const button_bussiness = document.getElementsByClassName(
+      "card__btn__bussiness"
+    );
 
-    // console.log(button_basic);
+    button_bussiness[0].addEventListener("click", paybussiness);
 
-    // radioButtons2.forEach((button) => {
-    //   button.addEventListener("change", () => {
-    //     if (button.checked) {
-    //       const selectedValue = button.value;
+    function paybussiness() {
+      if (activeRadioButtonId == "Monthly") {
+      
+        Instamojo.open("https://quickbinary.mojo.page/e-commerce-business");
+      } else if (activeRadioButtonId == "Annually") {
+       
+        Instamojo.open("https://quickbinary.mojo.page/e-commerce-business-yearly");
+      } else if (activeRadioButtonId == "One Time") {
+        Instamojo.open("https://quickbinary.mojo.page/e-commerce-business-onetime");
+      }
+    }
 
-    //       if (selectedValue === "Monthly") {
-    //         console.log("Monthly plan selected");
-    //       } else if (selectedValue === "Annually") {
-    //         console.log("Annually plan selected");
-    //       } else if (selectedValue === "One Time") {
-    //         console.log("One Time plan selected");
-    //       } else {
-    //         console.log("Unknown plan selected");
-    //       }
-    //     }
-    //   });
-    // });
-
-    // const button_basic = document.getElementById('btn-show');
-
-    // console.log(button_basic,activeRadioButtonId)
-
-    // console.log(activeRadioButtonId)
-    // if(activeRadioButtonId == "Monthly"){
-
-    //   button_basic.addEventListener('click',monthBasic)
-
-    //  function monthBasic(){
-    //   console.log("Basic 999")
-    //  }
-
-    // }
-    // else if(activeRadioButtonId == "Annually"){
-
-    //   button_basic[0].addEventListener('click',anually)
-
-    //  function anually(){
-    //   console.log("anually 100000")
-    //  }
-    // }
+ 
   } else {
     /* if $ is true than send form */
 
